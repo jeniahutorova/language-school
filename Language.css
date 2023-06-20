@@ -1,0 +1,352 @@
+/* Text */
+html{
+    font-size: 18px;
+}
+body{
+    font-family: 'Axiforma';
+    color: rgb(23, 26, 51);
+    font-style: normal;
+}
+h1{
+    font-weight: 300;
+    font-size: 3rem;
+    line-height: 4rem;
+}
+h2{
+    font-weight: 300;
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+}
+h3{
+    font-weight: 700;
+    font-size: 1.7rem;
+    line-height: 2rem;
+}
+h4{
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+p{
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.9rem
+}
+p.opasity{
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.9rem;
+    text-transform: uppercase;
+    color: #B0B0C0;
+    padding-top: 11rem ;
+}
+form input,
+form textarea,
+font button{
+    font-family:'Axiforma';
+    font-size:18px;
+    line-height: 1.6rem;
+}
+
+/* Header */
+.main{
+    width: auto;
+    height: 45.3rem;
+    left: 1.8rem;
+    top: 1.9rem;
+    background-color: #FFF5F1;
+    border-radius: 2.2rem;
+    margin: 0 auto;
+}
+nav {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    color: #666680;
+    nav-left: auto;
+    margin-right: 1rem;
+    padding-left: 68px;
+    padding-right: 68px;
+    padding-top: 60px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    }
+.choose a{
+        text-decoration: none;
+        padding-left: 2.5rem;
+    }
+.btn-big{
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #FFFFFF;
+    border-radius: 4rem;
+    color: rgb(82, 79, 213);
+    text-decoration: none;
+    align-items: center;
+    padding: 1rem 2rem;
+    cursor: pointer;
+}
+.btn{
+    font-weight: 700;
+    font-family: 'Axiforma';
+    font-size: 15px;
+    align-content: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(82, 79, 213);
+    border:none;
+    border-radius: 4rem;
+    padding: 1rem 2rem;
+    gap: 10px;
+    width: 9.5rem;
+    height: 3.5rem;
+    margin-left: 3.7rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.content h1{
+    width: 31rem;
+    height: 12rem;
+    padding: 7rem 2rem 1rem 3.7rem;
+}
+.content span{
+    color: #524FD5;
+}
+.content p{
+    color: #666680;
+    font-weight: 300;
+    line-height: 1.8rem;
+    width: 19rem;
+    height: 3.7rem;
+    margin-top: 1rem;
+    padding-left:3.7rem;
+}
+.main-photo img{
+    max-width: 100%;
+}
+.menu{
+    display: none;
+}
+
+/* Values */
+.values p{
+    text-align: center;
+}
+.values h2{
+    padding-bottom: 4.8rem;
+    text-align: center;
+    padding-left: 10px;
+}
+.positives{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    gap: 7rem;
+    padding-left: 8.2rem;
+    padding-right: 8.2rem;
+}
+.positives img{
+    width: 4.5rem;
+    height: 4.5rem;
+}
+
+/* Teachers */
+.teachers{
+    display:flex;
+    justify-content: space-between;
+    padding-left: 5.5rem;
+    padding-right: 5.5rem;
+    padding-bottom: 2.5rem;
+    text-align: left;
+}
+.teachers span{
+    display: flex;
+    align-items: center;
+}
+.teachers span img{
+    max-width: 2rem;
+    max-height: 2rem;
+}
+.teachers img{
+    border-radius: 2.7rem;
+}
+
+.persons h2{
+    padding-left: 5.5rem;
+}
+.persons p{
+    padding-top: 7px;
+}
+.next p{
+    padding: 13.3rem 0 0 5.5rem;
+}
+/* Reviews */
+.face{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    align-items: center;
+}
+.reviews .opasity,
+.first{
+    padding-left: 5.5rem;
+}
+.reviews h2{
+    padding-left: 5.5rem;
+}
+.container-reviews{
+    display: flex;
+    text-align: center;
+}
+.container-reviews img{
+    max-width: 2.2rem;
+    max-height: 2rem;
+    margin-top: 13px;
+}
+
+/* Questions */
+.questions p,h2{
+    padding-left: 2.7rem;
+}
+.question,
+.question-0{
+    border: #B0B0C04D 1px solid;
+    border-radius: 1.4rem;
+    display:flex;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    max-width: 95%;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.question-0 div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.question-grid-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: flex-start;
+}
+.question-0{
+    background-color:#524FD5;
+    color: white;
+    display: block;
+    width: 100%;
+}
+.question-0 img{
+    width: 1.4rem;
+    height: 1.4rem;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+.question img{
+    padding-right: 1rem;
+    padding-top: 5px;
+    max-width: 1.4rem;
+    max-height: 1.4rem;
+}
+.question-0.small{
+    max-width: 80%;
+}
+/* Contact */
+.contact{
+    text-align: center;
+    padding-top: 12.2rem;
+}
+.contact p,
+.contact h2{
+    text-align: center;
+}
+.email{
+    width: 19.4rem;
+    height: 3.5rem;
+    background: #F8FAFE;
+    border-radius: 4rem;
+    border: none;
+    margin-left: 3rem;
+    margin-right: auto;
+    margin-bottom: 15rem;
+    align-self: center;
+}
+::placeholder{
+    color: #B0B0C0;
+    font-size: 1rem;
+    padding-left: 1.4rem;
+}
+.contact .btn{
+    margin-left: 1rem;
+} 
+
+/* Footer */
+.footer{
+    font-size: 14px;
+    background-color: #F8FAFE;
+    border-radius: 3rem;
+    width: 69rem;
+    height: 16.6rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    padding-top: 2.8rem;
+    margin-left: 4.4rem;
+}
+.contacts a{
+    text-decoration: none;
+    color: #666680;
+    display: block;
+    align-content: space-between;
+    padding-bottom: 1rem;
+}
+
+@media screen and (max-width:1200px){
+    .choose,
+    .btn-big{
+        display: none;
+    }
+    .menu{
+        display:inline-block;
+    }
+    .content{
+        grid-template-columns: 1fr;
+    }
+    .main-photo{
+        display: none;
+    }
+    h1{
+        padding-top: 0;
+    }
+    .positives{
+        text-align: center;
+        max-width: 75%;
+        padding-left: 3.3rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-left: 7.7rem;
+    }
+    .teachers{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .first{
+    max-width: 65%;
+    }
+    .face{
+        gap: 10px;
+    }
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 15px;
+        text-align: start;
+        height: 52.7rem;
+        width: auto;
+        padding-left: 1rem;
+     }
+}
